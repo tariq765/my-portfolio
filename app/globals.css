@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Glassmorphism helper */
+@theme {
+  --color-glass: rgba(255, 255, 255, 0.1);
+  --color-glass-border: rgba(255, 255, 255, 0.2);
+}
+
+.glass {
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  border-radius: 0.75rem;
+}
+
+/* Custom Scrollbar */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #111827; /* gray-900 */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0ea5e9; /* primary color */
+    border-radius: 5px;
+    border: 2px solid #111827;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0284c7; /* darker primary */
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #0ea5e9 #111827;
+  }
+}
