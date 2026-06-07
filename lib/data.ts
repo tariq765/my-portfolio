@@ -1,43 +1,48 @@
 export const hero = {
   name: 'Tariq Asghar',
-  title: 'Frontend & Fullstack Web Developer',
+  title: 'Full Stack Web Developer & AI Enthusiast',
   intro:
-    'Passionate web developer focused on creating modern, responsive, and user-friendly web applications using Next.js, TypeScript, Tailwind CSS, and AI-powered technologies.',
+    'Passionate Full Stack Web Developer from Karachi, specializing in Next.js, TypeScript, Python, FastAPI, and AI-powered solutions.',
 };
 
-export const about = `I’m currently deepening my backend development skills and exploring Agentic AI.
-My journey started with pure frontend, quickly expanding into full‑stack applications, building clean UI/UX and integrating modern APIs. I love turning ideas into polished, performant products.`;
+export const about = `Hi, I'm Tariq Asghar, a passionate Full Stack Web Developer from Karachi, Pakistan. I specialize in building modern, responsive, and user-friendly web applications using Next.js, TypeScript, Tailwind CSS, Python, FastAPI, and PostgreSQL.
+
+I am continuously improving my skills through practical projects and hands-on development. My focus is on creating high-performance websites, scalable backend systems, and AI-powered applications that solve real-world problems.
+
+Currently, I am expanding my expertise in Artificial Intelligence, Agentic AI, Backend Development, and Cloud Deployment while building full-stack projects such as e-commerce platforms, portfolio websites, and intelligent AI assistants.
+
+I enjoy learning new technologies, solving complex problems, and transforming ideas into functional digital products. My goal is to work with clients and companies worldwide, delivering high-quality software solutions and contributing to innovative projects.`;
 
 export const skills = {
   frontend: [
+    'Next.js',
+    'TypeScript',
+    'Tailwind CSS',
     'HTML5',
     'CSS3',
-    'Tailwind CSS',
-    'TypeScript',
-    'Next.js',
     'Responsive Design',
   ],
   backend: [
+    'Python',
     'FastAPI',
-    'API Integration',
-    'MongoDB',
+    'PostgreSQL',
+    'Neon DB',
+    'API Development',
     'Authentication',
-    'Sanity CMS',
+    'Sanity.io CMS',
   ],
   ai: [
-    'RAG (Retrieval-Augmented Generation)',
-    'Chat AI Assistants',
-    'AI Automation',
+    'AI-Powered Apps',
     'Agentic AI',
-    'OpenAI / LangChain',
+    'RAG',
     'Vector Databases',
+    'OpenAI / LangChain',
   ],
   tools: [
     'Git & GitHub',
     'Vercel',
-    'Figma',
     'Docker',
-    'AI Tools',
+    'Figma',
     'VS Code',
   ],
 };
@@ -70,14 +75,25 @@ export const projects = [
     github: '#',
     demo: 'https://ai-native-book-henna.vercel.app/',
   },
+  {
+    title: 'DuppyAPI E-Commerce | Full-Stack Next.js & FastAPI Shopping Platform',
+    description: 'A modern full-stack e-commerce platform built with Next.js, TypeScript, Tailwind CSS, FastAPI, Sanity CMS, and Neon PostgreSQL. Features secure authentication, dynamic product management, responsive design, and seamless shopping experience.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'Sanity CMS', 'Neon PostgreSQL'],
+    image: '/duppyapi-screenshot.png',
+    github: 'https://github.com/tariq765/duppyapi-ecommerce-website',
+    demo: 'https://duppyapi-ecommerce-website.vercel.app/',
+  },
 ];
 
 export const services = [
-  'Frontend Development',
-  'Full Responsive Website Design',
-  'Next.js Development',
-  'UI Conversion from Figma',
-  'Modern Landing Pages',
+  'Frontend Development with Next.js & TypeScript',
+  'Responsive UI Design with Tailwind CSS',
+  'Backend Development with FastAPI & Python',
+  'Database Management with PostgreSQL & Neon',
+  'CMS Integration using Sanity.io',
+  'Authentication & API Development',
+  'AI-Powered Web Applications',
+  'Full Stack E-commerce Solutions',
 ];
 
 export const experience = [
