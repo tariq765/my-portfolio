@@ -72,8 +72,9 @@ export const projects = [
       'A comprehensive book project featuring an integrated RAG (Retrieval-Augmented Generation) chatbot for intelligent technical queries.',
     tech: ['Next.js', 'TypeScript', 'RAG', 'AI Chatbot', 'Tailwind'],
     image: '/robotics-book.png',
-    github: '#',
-    demo: 'https://ai-native-book-henna.vercel.app/',
+    // ⚡ FIX: Updated GitHub and Live Demo links for your Book & RAG Chatbot project
+    github: 'https://github.com/tariq765/Physical-Ai-Book-with-RAG-Chat-Bot',
+    demo: 'https://physical-ai-book-with-rag-chat-bot.vercel.app',
   },
   {
     title: 'DuppyAPI E-Commerce | Full-Stack Next.js & FastAPI Shopping Platform',
