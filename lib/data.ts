@@ -84,6 +84,14 @@ export const projects = [
     github: 'https://github.com/tariq765/duppyapi-ecommerce-website',
     demo: 'https://duppyapi-ecommerce-website.vercel.app/',
   },
+  {
+    title: 'Typing-Master',
+    description: 'A web‑based typing practice app that tracks speed, accuracy, and provides realtime feedback to help users improve their typing skills.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS'],
+    image: '/typing-master.png',
+    github: 'https://github.com/tariq765/Typing-Master',
+    demo: 'https://typing-master-rouge.vercel.app/',
+  },
 ];
 
 export const services = [
