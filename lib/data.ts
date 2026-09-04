@@ -92,6 +92,14 @@ export const projects = [
     github: 'https://github.com/tariq765/Typing-Master',
     demo: 'https://typing-master-rouge.vercel.app/',
   },
+  {
+    title: 'The AI Engineering Handbook',
+    description: 'Comprehensive open-source handbook covering AI fundamentals, LLMs, Advanced RAG, MCP, Multi-Agent systems, and Physical AI with an integrated AI RAG Assistant.',
+    tech: ['Docusaurus', 'FastAPI', 'RAG', 'Vector DB', 'Groq'],
+    image: '/ai-book.png',
+    github: 'https://github.com/tariq765/ai-book',
+    demo: 'https://ai-book-amber.vercel.app/',
+  },
 ];
 
 export const services = [

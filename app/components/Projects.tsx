@@ -74,13 +74,18 @@ export default function Projects() {
               <div className="mt-auto flex gap-4">
                 <Button 
                   href={p.demo} 
-                  className="flex-1 py-3 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
+                  className="flex-1 py-3 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center gap-2 transition-transform hover:scale-[1.02]"
                 >
-                  <ExternalLink size={18} /> Live Demo
+                  <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                    <path d="M24 22.525H0l12-21.05 12 21.05z" />
+                  </svg>
+                  <span>Live Demo</span>
+                  <ExternalLink size={16} className="opacity-80" />
                 </Button>
                 <Button 
                   href={p.github} 
-                  className="px-5 py-3 glass hover:bg-white/10 text-white rounded-xl border-white/10 flex items-center justify-center"
+                  className="px-5 py-3 glass hover:bg-white/10 text-white rounded-xl border-white/10 flex items-center justify-center gap-2 transition-colors"
+                  aria-label="View on GitHub"
                 >
                   <Github size={20} />
                 </Button>
