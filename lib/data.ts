@@ -49,6 +49,15 @@ export const skills = {
 
 export const projects = [
   {
+    title: 'AI Career Copilot — Full-Stack ATS & AI Interview SaaS',
+    description:
+      'A production-grade AI career platform featuring ATS Resume Match Scoring (0-100%), bullet-point enhancement, multi-tone AI Cover Letter Generator, and interactive turn-by-turn AI Mock Technical Interview Simulator with readiness reporting.',
+    tech: ['Next.js 16', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'Neon DB', 'OpenAI'],
+    image: '/ai-book.png',
+    github: 'https://github.com/tariq765/ai-career-copilot',
+    demo: 'https://ai-career-copilot-five-sigma.vercel.app/',
+  },
+  {
     title: 'Modern E‑Commerce Website',
     description:
       'Full‑responsive ecommerce app built with Next.js, Tailwind, and TypeScript. Includes product pages, cart UI, and checkout flow.',
@@ -72,7 +81,6 @@ export const projects = [
       'A comprehensive book project featuring an integrated RAG (Retrieval-Augmented Generation) chatbot for intelligent technical queries.',
     tech: ['Next.js', 'TypeScript', 'RAG', 'AI Chatbot', 'Tailwind'],
     image: '/robotics-book.png',
-    // ⚡ FIX: Updated GitHub and Live Demo links for your Book & RAG Chatbot project
     github: 'https://github.com/tariq765/Physical-Ai-Book-with-RAG-Chat-Bot',
     demo: 'https://physical-ai-book-with-rag-chat-bot.vercel.app',
   },
