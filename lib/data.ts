@@ -51,6 +51,17 @@ export const skills = {
 
 export const projects = [
   {
+    title: 'The Ultimate AI Automation & Agentic Playbook (2026)',
+    description:
+      'The complete digital mega-bundle featuring 100+ production AI prompts, 5 ready-to-run Python automation scripts (PDF RAG, scraper, email triage, lead enricher), and winning freelance proposal templates.',
+    tech: ['Python', 'AI Agents', 'RAG', 'Automation', 'Prompts'],
+    image: '/ai-book.png',
+    github: 'https://github.com/tariq765/ai-automation-playbook-2026',
+    demo: 'https://tariqstar72.gumroad.com/l/wbfzg',
+    buyUrl: 'https://tariqstar72.gumroad.com/l/wbfzg',
+    price: '$9',
+  },
+  {
     title: 'AI Career Copilot — Full-Stack ATS & AI Interview SaaS',
     description:
       'A production-grade AI career platform featuring ATS Resume Match Scoring (0-100%), bullet-point enhancement, multi-tone AI Cover Letter Generator, and interactive turn-by-turn AI Mock Technical Interview Simulator with readiness reporting.',
