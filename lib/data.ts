@@ -58,6 +58,8 @@ export const projects = [
     image: '/ai-book.png',
     github: 'https://github.com/tariq765/ai-career-copilot',
     demo: 'https://ai-career-copilot-five-sigma.vercel.app/',
+    buyUrl: 'https://tariqstar72.gumroad.com/l/rlaugm',
+    price: '$29',
   },
   {
     title: 'The AI Engineering Handbook & RAG Assistant',
@@ -76,6 +78,8 @@ export const projects = [
     image: '/robotics-book.png',
     github: 'https://github.com/tariq765/Physical-Ai-Book-with-RAG-Chat-Bot',
     demo: 'https://physical-ai-book-with-rag-chat-bot.vercel.app',
+    buyUrl: 'https://tariqstar72.gumroad.com/l/dorbo',
+    price: '$9',
   },
   {
     title: 'AI Smart Task Assistant & Automation',
@@ -140,4 +144,5 @@ export const socials = {
   linkedin: 'https://www.linkedin.com/in/tariq-asghar-229331364/',
   whatsapp: 'https://wa.me/923402053859',
   email: 'tariqasghar761@gmail.com',
+  gumroad: 'https://tariqstar72.gumroad.com',
 };
