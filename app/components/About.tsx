@@ -7,8 +7,8 @@ import { MapPin, Briefcase, Code2, GraduationCap } from 'lucide-react';
 export default function About() {
   const infoItems = [
     { icon: <MapPin size={18} className="text-primary" />, label: 'Location', value: 'Karachi, Pakistan' },
-    { icon: <Code2 size={18} className="text-secondary" />, label: 'Main Focus', value: 'React / Next.js & FastAPI' },
-    { icon: <GraduationCap size={18} className="text-accent" />, label: 'Education', value: 'Governor Sindh IT Course' },
+    { icon: <Code2 size={18} className="text-secondary" />, label: 'Main Focus', value: 'Full Stack & AI Automation' },
+    { icon: <GraduationCap size={18} className="text-accent" />, label: 'Education', value: 'Governor Sindh IT Initiative' },
     { icon: <Briefcase size={18} className="text-primary" />, label: 'Availability', value: 'Open for Freelance / Fulltime' },
   ];
 
@@ -48,8 +48,7 @@ export default function About() {
             <h3 className="text-2xl font-bold text-white mb-2">Quick Overview</h3>
             
             <div className="space-y-5">
-              {infoItems.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
+              {infoItems.map((item, index) => (\n                <div key={index} className="flex items-start gap-4">
                   <div className="p-3 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center shrink-0">
                     {item.icon}
                   </div>
@@ -76,7 +75,7 @@ export default function About() {
             
             <div className="space-y-6">
               <h3 className="text-2xl font-extrabold text-white">
-                Designing & Developing the <span className="text-primary">Next‑Gen</span> Web
+                Engineering <span className="text-primary">Next‑Gen</span> Web & AI Solutions
               </h3>
               <div className="text-lg text-gray-300 leading-relaxed font-light whitespace-pre-line">
                 {about}
@@ -85,8 +84,8 @@ export default function About() {
 
             <div className="pt-8 flex items-center gap-6 border-t border-white/5 mt-8">
               <div>
-                <span className="text-3xl font-extrabold text-white block">3+</span>
-                <span className="text-xs text-gray-400 uppercase tracking-wider font-medium">Core Tech Categories</span>
+                <span className="text-3xl font-extrabold text-white block">4+</span>
+                <span className="text-xs text-gray-400 uppercase tracking-wider font-medium">Core Tech Domains</span>
               </div>
               <div className="w-[1px] h-10 bg-white/10" />
               <div>
@@ -100,4 +99,3 @@ export default function About() {
     </section>
   );
 }
-
