@@ -8,8 +8,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Tariq Asghar – Portfolio',
-  description: 'Frontend & Fullstack Web Developer portfolio',
+  title: 'Tariq Asghar – Full Stack Developer & AI Expert',
+  description: 'Full Stack Web Developer & AI Expert specializing in AI Assistants, RAG Chatbots, Agentic AI, and AI Automation workflows.',
 };
 
 export default function RootLayout({
@@ -30,4 +30,3 @@ export default function RootLayout({
     </html>
   );
 }
-
