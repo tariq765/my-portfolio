@@ -48,7 +48,8 @@ export default function About() {
             <h3 className="text-2xl font-bold text-white mb-2">Quick Overview</h3>
             
             <div className="space-y-5">
-              {infoItems.map((item, index) => (\n                <div key={index} className="flex items-start gap-4">
+              {infoItems.map((item, index) => (
+                <div key={index} className="flex items-start gap-4">
                   <div className="p-3 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center shrink-0">
                     {item.icon}
                   </div>
