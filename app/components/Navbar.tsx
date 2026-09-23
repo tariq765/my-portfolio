@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X, Moon, Sun, ShoppingBag } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -64,7 +64,17 @@ export default function Navbar() {
         </ul>
 
         {/* Utility Actions */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
+          <a
+            href="https://tariqstar72.gumroad.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold text-white bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 shadow-lg shadow-pink-500/25 hover:scale-105 transition-all"
+          >
+            <ShoppingBag size={14} />
+            <span>Store</span>
+          </a>
+
           <button
             onClick={() => setDark(!dark)}
             className="p-2.5 rounded-xl border border-white/5 bg-white/5 hover:bg-white/10 hover:border-white/10 hover:text-primary transition-all duration-300"
@@ -105,6 +115,17 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
+              <li className="pt-2">
+                <a
+                  href="https://tariqstar72.gumroad.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-pink-500 to-rose-600 shadow-lg shadow-pink-500/25"
+                >
+                  <ShoppingBag size={16} />
+                  <span>Visit Gumroad Store</span>
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}
@@ -112,4 +133,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
